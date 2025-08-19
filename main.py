@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 
 
-face_file = 'D:\\programming\\PyCharm Project\\Eye blink detection\\haarcascade_frontalface_default.xml'
-eye_file = 'D:\\programming\\PyCharm Project\\Eye blink detection\\haarcascade_eye_tree_eyeglasses.xml'
+face_file = 'haarcascade_frontalface_default.xml'
+eye_file = 'haarcascade_eye_tree_eyeglasses.xml'
 
 face_cascade = cv2.CascadeClassifier(face_file)
 eye_cascade = cv2.CascadeClassifier(eye_file)
